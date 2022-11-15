@@ -1,0 +1,44 @@
+#boite {
+    background-color: red;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    animation: redBox 5s infinite;
+}
+
+@keyframes redBox {
+    0% {
+        left: 10px;
+
+    }
+
+    10% {
+        left: 400px;
+        background-color: rgb(110, 134, 54);
+    }
+    20% {
+        left: 400px;
+        background-color: rgb(247, 247, 255);
+    }
+    30% {
+        left: 400px;
+        background-color: rgb(7, 7, 10);
+    }
+    40% {
+        left: 400px;
+        background-color: rgb(19, 19, 204);
+    }
+    50% {
+        left: 400px;
+        background-color: rgb(166, 255, 0);
+    }
+    60% {
+        left: 400px;
+        background-image: url(Gaming_5000x3125.jpg);
+    }
+
+    100% {
+        left: 10px;
+        background-color: darkmagenta;
+    }
+}
